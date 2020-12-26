@@ -1,0 +1,22 @@
+[
+  {
+    "email": "tawne@gmail.com",
+    "subject": "insterested in fulltime work",
+    "message": "Git is a distributed version control system that’s being used by most software teams today. The first thing you should do after installing Git on your system is to configure your git username and email address. Git associate your identity with every commit you make."
+  },
+  {
+    "email": "joe@gmail.com",
+    "subject": "status report",
+    "message": "Git is a distributed version control system that’s being used by most software teams today. The first thing you should do after installing Git on your system is to configure your git username and email address. Git associate your identity with every commit you make."
+  },
+  {
+    "email": "becky@gmail.com",
+    "subject": "insterested in freelance work",
+    "message": "Git is a distributed version control system that’s being used by most software teams today. The first thing you should do after installing Git on your system is to configure your git username and email address. Git associate your identity with every commit you make."
+  },
+  {
+    "email": "ribjab@gmail.com",
+    "subject": "hey you guys",
+    "message": "Git is a distributed version control system that’s being used by most software teams today. The first thing you should do after installing Git on your system is to configure your git username and email address. Git associate your identity with every commit you make."
+  }
+]
