@@ -1,0 +1,40 @@
+@import "variables";
+@import "mixins";
+
+.dashboard_container {
+  width: 520px;
+
+}
+
+.main_title {
+  font-size: 24px;
+  color: @eggplant;
+  margin: 2rem auto;
+}
+
+.message_container {
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  p {
+    color: @eggplant;
+  }
+
+  button {
+    width: 300px;
+    padding: 20px;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    background-color: @danger_red;
+    color: @ghost_white;
+  }
+}
+
+.title {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+
