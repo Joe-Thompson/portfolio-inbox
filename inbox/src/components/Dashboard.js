@@ -16,7 +16,24 @@ function Dashboard() {
             .catch(err => {
                 console.log(err)
             });
-    },[])
+    },[]);
+
+    const click_handler = (e) => {
+        let id = Number(e.target.value)
+
+        axios.delete('https://portfolio-thompson.herokuapp.com/message/delete', {
+            data: {
+                id
+            }
+        })
+            .then(res => {
+                console.log(res)
+                window.location.reload();
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    };
 
     if (!messages) return <p>Loading</p>
     else
@@ -32,7 +49,7 @@ function Dashboard() {
                     <p className='info'>{arr.subject}</p>
                     <p className='title'>Message:</p>
                     <p className='info'>{arr.message}</p>
-                    <button>Delete</button>
+                    <button value={arr.id} onClick={click_handler}>Delete</button>
                 </div>
                 )
             })}
